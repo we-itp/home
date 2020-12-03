@@ -1,5 +1,87 @@
 body {
     font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 400;
     font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#root {
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+.main-container, .events-container {
+    height: calc(100vh - 60px);
+}
+
+/* Home */
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-text {
+    text-align: center;
+    margin: 75px 15vw;
+}
+
+.header {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 52px;
+}
+
+/* Navbar */
+.Navbar {
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-item {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url('./logo.png');
+    height: 50px;
+    height: 50px;
+    width: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 20px !important;
+}
+
+/* Events */
+.events-container {
+    display: flex;
+    width: 100vw;
+    flex-flow: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.event-container {
+    margin: 40px;
+}
+
+/* Contact */
+.contact-container {
+    margin: 75px 15vw;
+}
+
+.subheader {
+    font-weight: 700;
+    margin: 20px 0;
 }

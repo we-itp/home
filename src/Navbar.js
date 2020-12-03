@@ -1,15 +1,14 @@
 import React from 'react'
-import './Navbar.css'
 
 import {Pages} from './constants'
 
 export default class Navbar extends React.Component {
     renderNavItem = navItem => (
-        <div className="nav-item"
+        <div className={`${navItem === Pages.Home ? 'logo' : ''} nav-item`}
             key={`${navItem}`}
             onClick={this.props.changePage}
             data-value={navItem}
-        >{navItem}</div>
+        >{navItem === Pages.Home ? "" : navItem}</div>
     )
     render() {
         return (
