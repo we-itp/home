@@ -1,4 +1,7 @@
 export const Pages = {
     Home: 'Home',
-    About: 'About'
+    About: 'About',
+    Events: 'Events',
+    Contact: 'Contact',
+    Resources: 'Resources'
 }
