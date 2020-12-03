@@ -33,8 +33,9 @@ const EventsList = [
 
 export default class Events extends React.Component {
     renderEvent = event => (
-        <div className="event-container">
+        <div key={event.title} className="event-container">
             <img alt="event for weitp" src={event.photo}></img>
+            <div className="event-date">{event.title}</div>
             <div className="event-date">
                 {event.date} @ {event.time}
             </div>

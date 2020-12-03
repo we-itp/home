@@ -77,11 +77,20 @@ body {
 }
 
 /* Contact */
-.contact-container {
+.contact-container, .resources-container, .about-container {
     margin: 75px 15vw;
 }
 
 .subheader {
     font-weight: 700;
+    font-size: 25px;
     margin: 20px 0;
+}
+
+.resource-text, .about-text {
+    margin: 20px 0;
+}
+
+.microheader {
+    font-weight: 700;
 }
