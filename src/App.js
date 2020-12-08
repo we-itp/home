@@ -58,9 +58,13 @@ export default class App extends React.Component {
         <div onClick={this.changePage} data-value={Pages.Home} className="logo-container">
           <div className="logo" />
         </div>
-        {this.state.beforeNavItems.map(this.renderNavItem)}
+        <div className="nav-before">
+          {this.state.beforeNavItems.map(this.renderNavItem)}
+        </div>
         {this.renderPage()}
-        {this.state.afterNavItems.map(this.renderNavItem)}        
+        <div className="nav-after">
+          {this.state.afterNavItems.map(this.renderNavItem)}
+        </div>
       </div>
     )
   }

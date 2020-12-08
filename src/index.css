@@ -64,6 +64,10 @@ body {
     width: 100vw;
 }
 
+.nav-after {
+    margin-top: auto;
+}
+
 .nav-item {
     cursor: pointer;
     padding: 10px 10vw;
