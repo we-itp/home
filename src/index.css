@@ -6,49 +6,102 @@ body {
     line-height: 28px;
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 #root {
     height: 100vh;
     left: 0;
-    overflow: hidden;
     position: absolute;
     top: 0;
     width: 100vw;
-}
-
-.main-container, .events-container {
-    height: calc(100vh - 60px);
+    overflow-x: hidden;
 }
 
 /* Home */
 .main-container {
     display: flex;
     justify-content: center;
-    width: 100vw;
     align-items: center;
     flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .main-text {
-    text-align: center;
-    margin: 75px 15vw;
+    margin: 5vh 10vw;
+    display: flex;
 }
 
-.header {
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 52px;
+.column.first {
+    font-size: 25px;
+    line-height: 36px;
+    padding: 20px 0;
+    width: 90%;
+}
+
+.column.second {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px;
+}
+
+.home-subtext {
+    padding: 10px 0;
+}
+
+.home-boldsubtext {
+    font-weight: bold;
 }
 
 /* Navbar */
 .Navbar {
-    height: 60px;
-    align-items: center;
     display: flex;
+    flex-flow: column;
+    width: 100vw;
 }
 
 .nav-item {
-    margin: 20px;
     cursor: pointer;
+    padding: 10px 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.about {
+    background-color: #FFD800;
+    margin-top: auto;
+}
+
+.nav-item.events {
+    background-color: #FF3F19;
+}
+
+.nav-item.resources {
+    background-color: #00E778;
+}
+
+.nav-item.contact {
+    background-color: #1F01FF;
+}
+
+.nav-plus {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.logo-container {
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -59,7 +112,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 20px !important;
+    margin: 0 10vw;
+    cursor: pointer;
 }
 
 /* Events */
@@ -74,12 +128,19 @@ body {
 
 .event-container {
     margin: 40px;
+    padding-bottom: 200px;
+    overflow-y: auto;
 }
 
 /* Contact */
 .contact-container, .resources-container, .about-container {
-    margin: 75px 15vw;
+    margin: 5vh 5vw;
 }
+
+.contact-container {
+    margin-bottom: auto;
+}
+
 
 .subheader {
     font-weight: 700;

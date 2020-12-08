@@ -1,24 +1,29 @@
 import React from 'react'
 import './App.css'
-import Navbar from './Navbar'
+import NavItem from './NavItem'
 import Home from './Home'
 import About from './About'
 import Events from './Events'
 import Resources from './Resources'
 import Contact from './Contact'
-import {Pages} from './constants'
+import {Pages, PageOrder} from './constants'
 
 export default class App extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      page: Pages.Home
+      page: Pages.Home,
+      beforeNavItems: [],
+      afterNavItems: PageOrder.slice(1)
     }
   }
 
   changePage = ev => {
+    let idx = PageOrder.findIndex(page => page === ev.target.dataset.value)
     this.setState({
+      beforeNavItems: PageOrder.slice(0, idx + 1),
+      afterNavItems: PageOrder.slice(idx + 1),
       page: ev.target.dataset.value
     })
   }
@@ -38,11 +43,24 @@ export default class App extends React.Component {
     }
   }
 
+  renderNavItem = navItem => (
+    <NavItem 
+      key={`${navItem}`}
+      changePage={this.changePage}
+      navItem={navItem}
+      currentPage={this.state.page}
+    />
+  )
+
   render() {
     return (
       <div className="App">
-        <Navbar changePage={this.changePage} />
+        <div onClick={this.changePage} data-value={Pages.Home} className="logo-container">
+          <div className="logo" />
+        </div>
+        {this.state.beforeNavItems.map(this.renderNavItem)}
         {this.renderPage()}
+        {this.state.afterNavItems.map(this.renderNavItem)}        
       </div>
     )
   }
