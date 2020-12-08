@@ -11,9 +11,11 @@ export default class Resources extends React.Component {
     )
     render () {
         return (
-            <div className="resources-container">
-                <div className="subheader">Resources through NYU</div>
-                {ResourcesText.map(this.renderText)}
+            <div className="Page">
+                <div className="resources-container">
+                    <div className="subheader">Resources through NYU</div>
+                    {ResourcesText.map(this.renderText)}
+                </div>
             </div>
         )
     }

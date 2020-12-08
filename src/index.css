@@ -21,6 +21,21 @@ body {
     overflow-x: hidden;
 }
 
+.Page {
+    height: auto;
+    overflow-y: auto;
+}
+
+.about-container, .resources-container, .contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px;
+}
+
+.about-container {
+    background-color: #FFF3B3;
+}
+
 /* Home */
 .main-container {
     display: flex;
@@ -128,6 +143,8 @@ body {
     justify-content: center;
     overflow-y: auto;
     font-size: 16px;
+    background-color: #FFC5BA;
+    
 }
 
 .event-container {
@@ -137,12 +154,9 @@ body {
 }
 
 /* Contact */
-.contact-container, .resources-container, .about-container {
-    margin: 5vh 5vw;
-}
 
 .contact-container {
-    margin-bottom: auto;
+    background-color: #ADC4FF;
 }
 
 
@@ -150,6 +164,12 @@ body {
     font-weight: 700;
     font-size: 25px;
     margin: 20px 0;
+}
+
+/* Resources */
+
+.resources-container {
+    background-color: #B3F8CB;
 }
 
 .resource-text, .about-text {

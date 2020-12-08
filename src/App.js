@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import NavItem from './NavItem'
 import Home from './Home'
 import About from './About'
