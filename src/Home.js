@@ -10,10 +10,10 @@ export default class Home extends React.Component {
     renderSubText = (text, idx) => (
         <div key={text.text} className={`home-subtext ${text.className}`}>{text.text}</div>
     )
-    
+
     render () {
         return (
-            <div className="main-container">
+            <div className="Page">
                 <div className="main-text">
                     {HomeText.map(this.renderText)}
                 </div>

@@ -27,6 +27,15 @@ export default class App extends React.Component {
     })
   }
 
+  renderBottom = () => (
+    <div className="bottom-copyright">
+      <div className="bottom-container">
+        <div className="logo"></div>
+        <div className="copyright">© 2020</div>
+      </div>
+    </div>
+  )
+
   renderPage = () => {
     switch (this.state.page) {
       case Pages.About:
@@ -62,7 +71,7 @@ export default class App extends React.Component {
         </div>
         {this.renderPage()}
         <div className="nav-after">
-          {this.state.afterNavItems.map(this.renderNavItem)}
+          {this.state.afterNavItems.length ? this.state.afterNavItems.map(this.renderNavItem) : this.renderBottom()}
         </div>
       </div>
     )
