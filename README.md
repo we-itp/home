@@ -4,7 +4,7 @@
 
 Live website can be found [here](http://weitp.herokuapp.com).
 
-### Development
+## Development
 All of the text can be found in ```text.js```
 
 To run:
@@ -12,7 +12,7 @@ To run:
 npm run dev
 ```
 
-To deply:
+To deploy:
 ``` javascript
 git push heroku master
 ```
