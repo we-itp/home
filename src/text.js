@@ -1,5 +1,9 @@
 
-const ContactText = 'Email us at we.itp@nyu.edu or reach out to any of our current members! Our current members include: Dawn Sinkowski, Lizzy Chiappini, Simone Salvo, Sydney Meyers, Katie Han, Sue Roh, Na Chen, Christina Dacanay, Ji Park'
+const ContactText = [
+    'Email us at we.itp@nyu.edu or reach out to any of our current members!',
+    'Our current members include: Dawn Sinkowski, Lizzy Chiappini, Simone Salvo, Sydney Meyers, Katie Han, Sue Roh, Na Chen, Christina Dacanay, Ji Park'
+]
+
 const HomeText = [
     [
         {
