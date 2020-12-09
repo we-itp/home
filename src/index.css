@@ -55,17 +55,23 @@ body {
     display: flex;
 }
 
-.column.first {
+.main-text > .first {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     font-size: 25px;
     line-height: 36px;
     padding: 20px 0;
     width: 90%;
 }
 
-.column.second {
+.main-text > .second {
     font-size: 16px;
     line-height: 26px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .home-subtext {
@@ -214,10 +220,12 @@ body {
 
 .resources-container > .column0 {
     padding-right: 10px;
+    align-self: center;
 }
 
 .resources-container > .column1 {
     padding-left: 10px;
+    align-self: center;
 }
 
 .resource-text, .about-text {
