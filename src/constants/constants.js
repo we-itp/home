@@ -5,5 +5,3 @@ export const Pages = {
     Resources: 'Resources',
     Contact: 'Contact'
 }
-
-export const PageOrder = Object.values(Pages)

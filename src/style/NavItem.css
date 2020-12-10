@@ -1,0 +1,47 @@
+/* Navbar */
+.nav-item {
+    cursor: pointer;
+    padding: 10px 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.about {
+    background-color: #FFD800;
+    margin-top: auto;
+}
+
+.nav-item.events {
+    background-color: #FF3F19;
+}
+
+.nav-item.resources {
+    background-color: #00E778;
+}
+
+.nav-item.contact {
+    background-color: #1F01FF;
+}
+
+.nav-plus {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    background-image: url('../assets/logo.png');
+    height: 65px;
+    width: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 10vw;
+    cursor: pointer;
+}

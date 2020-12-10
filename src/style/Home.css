@@ -1,0 +1,40 @@
+/* Home */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-text {
+    margin: 5vh 10vw;
+    display: flex;
+}
+
+.main-text > .first {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 25px;
+    line-height: 36px;
+    padding: 20px 0;
+}
+
+.main-text > .second {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.home-subtext {
+    padding: 10px 0;
+}
+
+.home-boldsubtext {
+    font-weight: bold;
+}

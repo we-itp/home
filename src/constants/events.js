@@ -1,5 +1,3 @@
-import React from 'react'
-
 const EventsList = [
     {
         title: 'Megan Bowker, COLLINS',
@@ -31,22 +29,4 @@ const EventsList = [
     }
 ]
 
-export default class Events extends React.Component {
-    renderEvent = (event, idx) => (
-        <div key={`${event.title}-${idx}`} className="event-container">
-            <img alt="event for weitp" src={event.photo}></img>
-            <div className="event-date">{event.title}</div>
-            <div className="event-date">
-                {event.date} @ {event.time}
-            </div>
-            <div className="link"><a href={event.link}>Register</a></div>
-        </div>
-    )
-    render () {
-        return (
-            <div className="events-container">
-                {EventsList.map(this.renderEvent)}
-            </div>        
-        )
-    }
-}
+export {EventsList}
