@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6657162f4ca0f74d3a31a94a81bb18f1",
+    "revision": "539e45fe187c7f7285b55bca2544e51f",
     "url": "/weitp/index.html"
   },
   {
-    "revision": "b7d4138a5a42c0703b39",
-    "url": "/weitp/static/css/main.363904d8.chunk.css"
+    "revision": "fc96742b2ef506314d9d",
+    "url": "/weitp/static/css/main.ad744374.chunk.css"
   },
   {
     "revision": "8b2d2d202d3dbc87f75e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weitp/static/js/2.ab974284.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7d4138a5a42c0703b39",
-    "url": "/weitp/static/js/main.a4fb4bc2.chunk.js"
+    "revision": "fc96742b2ef506314d9d",
+    "url": "/weitp/static/js/main.bd0564b5.chunk.js"
   },
   {
     "revision": "06aee29a82615eed009a",

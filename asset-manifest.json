@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/weitp/static/css/main.363904d8.chunk.css",
-    "main.js": "/weitp/static/js/main.a4fb4bc2.chunk.js",
-    "main.js.map": "/weitp/static/js/main.a4fb4bc2.chunk.js.map",
+    "main.css": "/weitp/static/css/main.ad744374.chunk.css",
+    "main.js": "/weitp/static/js/main.bd0564b5.chunk.js",
+    "main.js.map": "/weitp/static/js/main.bd0564b5.chunk.js.map",
     "runtime-main.js": "/weitp/static/js/runtime-main.733ab795.js",
     "runtime-main.js.map": "/weitp/static/js/runtime-main.733ab795.js.map",
     "static/js/2.ab974284.chunk.js": "/weitp/static/js/2.ab974284.chunk.js",
     "static/js/2.ab974284.chunk.js.map": "/weitp/static/js/2.ab974284.chunk.js.map",
     "index.html": "/weitp/index.html",
-    "precache-manifest.24a185db47b5e541c613d6c52cd1507d.js": "/weitp/precache-manifest.24a185db47b5e541c613d6c52cd1507d.js",
+    "precache-manifest.9d8722898d9a758798c14f23c36a0be4.js": "/weitp/precache-manifest.9d8722898d9a758798c14f23c36a0be4.js",
     "service-worker.js": "/weitp/service-worker.js",
-    "static/css/main.363904d8.chunk.css.map": "/weitp/static/css/main.363904d8.chunk.css.map",
+    "static/css/main.ad744374.chunk.css.map": "/weitp/static/css/main.ad744374.chunk.css.map",
     "static/js/2.ab974284.chunk.js.LICENSE.txt": "/weitp/static/js/2.ab974284.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.733ab795.js",
     "static/js/2.ab974284.chunk.js",
-    "static/css/main.363904d8.chunk.css",
-    "static/js/main.a4fb4bc2.chunk.js"
+    "static/css/main.ad744374.chunk.css",
+    "static/js/main.bd0564b5.chunk.js"
   ]
 }
