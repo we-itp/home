@@ -45,15 +45,6 @@ export default class Contact extends React.Component {
         })
     }
 
-    renderBottom = () => (
-        <div className="bottom-copyright">
-          <div className="bottom-container">
-            <div className="logo"></div>
-            <div className="copyright">© 2020</div>
-          </div>
-        </div>
-      )
-
     renderContact = () => (
         <div className="contact-container">
             <div className="column0">
@@ -115,7 +106,6 @@ export default class Contact extends React.Component {
             <div ref={this.contactEl} className="Page">
                 {this.renderNavItem()}
                 {this.state.isExpanded ? this.renderContact() : null}
-                {this.state.isExpanded ? this.renderBottom() : null}
             </div>
         )
     }

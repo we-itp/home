@@ -5,13 +5,15 @@ body {
     font-size: 20px;
     line-height: 28px;
     overflow-x: hidden;
+    margin: 0;
 }
 
 
 #root {
     left: 0;
-    position: absolute;
     top: 0;
+    position: relative;
+    min-height: 100vh;
 }
 
 .Page {
@@ -28,10 +30,18 @@ body {
     min-height: 100%;
     justify-content: center;
 }
+  
+#main-content {
+    padding-bottom: 150px;    /* Footer height */
+}
 
-/* Bottom */
+/* Footer */
 .bottom-copyright {
     display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;            /* Footer height */
     justify-content: center;
 }
 
