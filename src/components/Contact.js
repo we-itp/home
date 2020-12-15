@@ -40,13 +40,13 @@ export default class Contact extends React.Component {
 
     renderContact = () => (
         <div className="contact-container">
-            <div className="column0">
+            <div className="column column0">
                 <div className="subheader">Join Us!</div>
                 <div className="contact-text">
                     {ContactText.map(this.renderText)}
                 </div>
             </div>
-            <div className="column1">
+            <div className="column column1">
                 <input 
                     ref={this.emailInputEl} 
                     className="contact-input" 

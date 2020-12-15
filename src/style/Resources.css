@@ -5,20 +5,6 @@
     flex-direction: row;
 }
 
-.resources-container > .column0 {
-    padding-right: 10px;
-    align-self: center;
-}
-
-.resources-container > .column1 {
-    padding-left: 10px;
-    align-self: center;
-}
-
-.resource-text, .about-text {
-    margin: 20px 0;
-}
-
 .microheader {
     font-weight: 700;
 }

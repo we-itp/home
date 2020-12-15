@@ -22,7 +22,7 @@ export default class Events extends React.Component {
 
     renderEvent = (event, idx) => (
         <div key={`${event.title}-${idx}`} className="event-container">
-            <img alt="event for weitp" src={event.photo}></img>
+            <img alt="event for weitp" src={process.env.PUBLIC_URL + event.photo}></img>
             <div className="event-date">{event.title}</div>
             <div className="event-date">
                 {event.date} @ {event.time}

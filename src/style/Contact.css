@@ -6,19 +6,6 @@
     align-items: center;
 }
 
-.contact-container > .column0 {
-    padding-right: 10px;
-    width: 100%;
-}
-
-.contact-container > .column1 {
-    padding-left: 10px;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .subheader {
     font-weight: 700;
     font-size: 25px;
