@@ -18,15 +18,8 @@ export default class Contact extends React.Component {
             isExpanded: false
         }
 
-        this.contactEl = React.createRef()
         this.emailInputEl = React.createRef()
         this.messageInputEl = React.createRef()
-    }
-
-    componentDidUpdate = (prevProps, prevState) => {
-        if (!prevState.isExpanded && this.state.isExpanded) {
-            this.scroll()
-        }
     }
 
     expand = () => {
@@ -93,17 +86,9 @@ export default class Contact extends React.Component {
         this.messageInputEl.current.value = ''
     }
 
-    scroll = () => {
-        let {offsetTop} = this.contactEl.current
-        window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-        })
-    }
-
     render () {
         return (
-            <div ref={this.contactEl} className="Page">
+            <div className="Page">
                 {this.renderNavItem()}
                 {this.state.isExpanded ? this.renderContact() : null}
             </div>
