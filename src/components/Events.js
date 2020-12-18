@@ -33,7 +33,9 @@ export default class Events extends React.Component {
 
     renderEvents = () => (
         <div className="events-container">
-            {EventsList.map(this.renderEvent)}
+            <div className="event-scroll">
+                {EventsList.map(this.renderEvent)}
+            </div>
         </div>
     )
 

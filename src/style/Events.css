@@ -1,16 +1,15 @@
 /* Events */
 .events-container {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    overflow-y: auto;
     font-size: 16px;
     background-color: #FFC5BA;
-    flex: 1 1 0;
     padding: 75px 10vw;
+}
+
+.event-scroll  {
+    display: flex;
+    overflow-x: auto;
 }
 
 .event-container {
     margin: 40px;
-    overflow-y: auto;
 }
