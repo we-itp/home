@@ -5,15 +5,17 @@
 Live website can be found [here](https://we-itp.com/).
 
 ## Development
-All of the text can be found in ```text.js```
+All of the text can be found in `src/constants/text.js`
 
-To run:
-```javascript
+**To run:**
+```
 npm run dev
 ```
+A local build of the site should open on your browser. If not, head to `localhost:3000`.
 
-To deploy:
-``` javascript
-npm run predeploy
+After making any changes to a file and saving, the site should hot-reload. If not, refresh the page.
+
+**To deploy:**
+```
 npm run deploy
 ```
