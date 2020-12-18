@@ -21,6 +21,16 @@ body {
     flex: 1 1 0;
 }
 
+.logo {
+    background-image: url('../assets/logo.png');
+    height: 65px;
+    width: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
 .about-container, .resources-container, .contact-container {
     display: flex;
     flex-direction: column;

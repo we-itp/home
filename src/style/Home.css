@@ -1,37 +1,35 @@
 /* Home */
 .main-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-direction: row;
+}
+
+.logo-container {
+    display: flex;
+    max-width: 75px;
+    margin: calc(5vh + 20px) 20px;
+    flex-basis: 100%;
 }
 
 .main-text {
-    margin: 5vh 10vw;
+    margin: 5vh 5vw;
     display: flex;
 }
 
 .main-text > .column {
     flex-grow: 1;
     flex-basis: 0;
-    padding: 20px;
-    padding-right: 50px;
-}
-
-.main-text > .first {
     display: flex;
     flex-direction: column;
     align-self: center;
+}
+
+.main-text > .first {
     font-size: 36px;
     line-height: 50px;
 }
 
 .main-text > .second {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
     font-size: 16px;
     line-height: 22.5px;
 }

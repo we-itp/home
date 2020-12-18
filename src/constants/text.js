@@ -18,11 +18,11 @@ const HomeText = [
         },
         {
             text: `A weekly speaker series that features an invited guest working in an ITP-adjacent industry to share their professional trajectories and offer candid insights based on their personal experiences`,
-            className: ''
+            className: 'home-subtext'
         },
         {
             text: `A mentorship program for graduating second-years to develop meaningful connections with ITP alumni, supporting a constructive transition from the ITP student community to a broader professional field`,
-            className: ''
+            className: 'home-subtext'
         }
     ]
 ]
