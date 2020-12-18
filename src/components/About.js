@@ -22,7 +22,7 @@ export default class About extends React.Component {
 
     renderAbout = () => (
         <div className="about-container">
-            {AboutText.map(this.renderText)}
+            <div className="column">{AboutText.map(this.renderText)}</div>
         </div>
     )
 
