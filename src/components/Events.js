@@ -20,10 +20,6 @@ export default class Events extends React.Component {
         })
     }
 
-    renderLink = (event) => (
-        <div className="link"><a href={event.link}>Register</a></div>
-    )
-
     renderEvent = (event, idx) => (
         <div key={`${event.title}-${idx}`} className="event-container">
             <img className="event-img" alt="event for weitp" src={process.env.PUBLIC_URL + event.photo}></img>
@@ -31,7 +27,7 @@ export default class Events extends React.Component {
             <div className="event-date">
                 {event.date} @ {event.time}
             </div>
-            {!event.archived ? this.renderLink(event) : null}
+            {!event.archived ? <div className="link"><a href={event.link}>Register</a></div> : null}
         </div>
     )
 

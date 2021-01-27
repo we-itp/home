@@ -74,9 +74,9 @@ export default class Contact extends React.Component {
         </div>
     )
 
-    renderText = text => (
-        <div key={`${text}`} className="resource-text">
-            {text}
+    renderText = item => (
+        <div key={`${item.text}`} className="resource-item">
+            {item.text} {item.email ? <a href={`mailto:${item.email}`}>{item.email}</a> : null }
         </div>
     )
 
