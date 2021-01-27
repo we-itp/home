@@ -46,7 +46,7 @@ export default class Contact extends React.Component {
                     {ContactText.map(this.renderText)}
                 </div>
             </div>
-            <div className="column column1">
+            {/* <div className="column column1">
                 <input 
                     ref={this.emailInputEl} 
                     className="contact-input" 
@@ -61,7 +61,7 @@ export default class Contact extends React.Component {
                     data-type="message" 
                     placeholder="Message"></input>
                 <button className="contact-button" onClick={this.sendEmail}>Send</button>
-            </div>
+            </div> */}
         </div>
     )
 
