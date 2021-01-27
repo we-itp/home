@@ -13,3 +13,8 @@
 .event-container {
     margin: 40px;
 }
+
+.event-img {
+    width: 250px;
+    height: 250px;
+}
