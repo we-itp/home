@@ -43,3 +43,19 @@
     font-size: 20px;
     line-height: 28px
 }
+
+@media (max-width: 768px) {
+    .main-container, .main-text {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-text > .second {
+        display: none;
+    }
+}

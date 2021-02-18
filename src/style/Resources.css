@@ -8,3 +8,9 @@
 .microheader {
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .resources-container {
+        flex-direction: column;
+    }
+}

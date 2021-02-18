@@ -4,3 +4,9 @@
     line-height: 28px;
     padding-right: 30vw;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        padding-right: 10vw;
+    }
+}
