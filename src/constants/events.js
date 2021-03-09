@@ -1,5 +1,12 @@
 const EventsList = [
     {
+        title: 'Frances Cathryn, founder of WIP Projects',
+        date: 'Mar 11, 2021',
+        time: '6:00pm EST',
+        link: 'https://nyu.zoom.us/j/92471761208',
+        photo: '/Frances_Cathryn.png',
+    },
+    {
         title: 'Megan Bowker, design director at Collins',
         date: 'Nov 12, 2020',
         time: '4:30pm EST',

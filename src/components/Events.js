@@ -27,7 +27,7 @@ export default class Events extends React.Component {
             <div className="event-date">
                 {event.date} @ {event.time}
             </div>
-            {!event.archived ? <div className="link"><a href={event.link}>Register</a></div> : null}
+            {!event.archived ? <div className="link"><a href={event.link}>Zoom Link</a></div> : null}
         </div>
     )
 
